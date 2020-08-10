@@ -1,0 +1,309 @@
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix wiki-ja:	<http://ja.wikipedia.org/wiki/> .
+@prefix dbpedia-ja:	<http://ja.dbpedia.org/resource/> .
+wiki-ja:バリィさん	foaf:primaryTopic	dbpedia-ja:バリィさん .
+@prefix dbpedia-owl:	<http://dbpedia.org/ontology/> .
+dbpedia-ja:ゆるキャラ	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:ふるさと大使	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:特別住民票	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:香川・愛媛せとうち旬彩館	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:ムヒョキャラ	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:官公庁のマスコットキャラクター一覧	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:有田早紀	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:鉄板焼鳥	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:踊り子クリノッペ	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:勝鬨スタジオ	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:今治市	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:来島海峡大橋	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:おはスタ	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:FC今治	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:くまモン	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:ちょるる	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:にしこくん	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:ガチガセ	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbpedia-ja:バリィさん	rdfs:label	"\u30D0\u30EA\u30A3\u3055\u3093"@ja ;
+	rdfs:comment	"\u30D0\u30EA\u30A3\u3055\u3093\u306F\u3001\u611B\u5A9B\u770C\u4ECA\u6CBB\u5E02\u3092\u30A4\u30E1\u30FC\u30B8\u3057\u305FPR\u30DE\u30B9\u30B3\u30C3\u30C8\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\u3067\u3042\u308B\u3002\u3086\u308B\u30AD\u30E3\u30E9\u30B0\u30E9\u30F3\u30D7\u30EA2012\u738B\u8005\u3002"@ja .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns6:	<http://www.wikidata.org/entity/> .
+dbpedia-ja:バリィさん	owl:sameAs	ns6:Q11328107 .
+@prefix ns7:	<http://wikidata.dbpedia.org/resource/> .
+dbpedia-ja:バリィさん	owl:sameAs	ns7:Q11328107 ;
+	foaf:isPrimaryTopicOf	wiki-ja:バリィさん .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbpedia-ja:バリィさん	prov:wasDerivedFrom	<http://ja.wikipedia.org/wiki/\u30D0\u30EA\u30A3\u3055\u3093?oldid=58474878> ;
+	dbpedia-owl:abstract	"\u30D0\u30EA\u30A3\u3055\u3093\u306F\u3001\u611B\u5A9B\u770C\u4ECA\u6CBB\u5E02\u3092\u30A4\u30E1\u30FC\u30B8\u3057\u305FPR\u30DE\u30B9\u30B3\u30C3\u30C8\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\u3067\u3042\u308B\u3002\u3086\u308B\u30AD\u30E3\u30E9\u30B0\u30E9\u30F3\u30D7\u30EA2012\u738B\u8005\u3002"@ja ;
+	dbpedia-owl:wikiPageExternalLink	<http://www.yurugp.jp/vote/detail.php?id=00000002> ,
+		<http://www.dp-g.jp/> ,
+		<http://wedge.ismedia.jp/articles/-/2915> ,
+		<http://www.oideya.gr.jp/> ,
+		<http://www.barysan.net/> ,
+		<http://ameblo.jp/barysan/> ;
+	dbpedia-owl:wikiPageID	2240021 .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbpedia-ja:バリィさん	dbpedia-owl:wikiPageLength	"20660"^^xsd:nonNegativeInteger ;
+	dbpedia-owl:wikiPageOutDegree	"267"^^xsd:nonNegativeInteger ;
+	dbpedia-owl:wikiPageRevisionID	58474878 ;
+	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:特別住民票 ,
+		<http://ja.dbpedia.org/resource/3\u67088\u65E5> ,
+		<http://ja.dbpedia.org/resource/2011\u5E74> ,
+		dbpedia-ja:造船業 ,
+		<http://ja.dbpedia.org/resource/2012\u5E74> ,
+		<http://ja.dbpedia.org/resource/3\u67082\u65E5> ,
+		<http://ja.dbpedia.org/resource/\u65E5\u672C\u6A4B_(\u6771\u4EAC\u90FD\u4E2D\u592E\u533A)> ,
+		dbpedia-ja:ご当地アイドル ,
+		<http://ja.dbpedia.org/resource/2013\u5E74> ,
+		<http://ja.dbpedia.org/resource/2014\u5E74> ,
+		<http://ja.dbpedia.org/resource/2009\u5E74> ,
+		dbpedia-ja:新垣結衣 ,
+		<http://ja.dbpedia.org/resource/LINE_(\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3)> ,
+		<http://ja.dbpedia.org/resource/4\u670826\u65E5> ,
+		dbpedia-ja:サークルKサンクス ,
+		dbpedia-ja:ひめキュンフルーツ缶 ,
+		dbpedia-ja:香川・愛媛せとうち旬彩館 ,
+		dbpedia-ja:東京中央郵便局 ,
+		dbpedia-ja:JR東日本リテールネット ,
+		dbpedia-ja:今治造船 ,
+		dbpedia-ja:焼き鳥 ,
+		dbpedia-ja:クリアファイル ,
+		dbpedia-ja:チロルチョコ ,
+		dbpedia-ja:バナナマン ,
+		dbpedia-ja:NHK総合 ,
+		dbpedia-ja:東京メトロポリタンテレビジョン ,
+		dbpedia-ja:日本経済新聞 ,
+		dbpedia-ja:フジテレビ ,
+		<http://ja.dbpedia.org/resource/\u5287\u5834\u7248_ATARU_THE_FIRST_LOVE_&_THE_LAST_KILL> .
+@prefix category-ja:	<http://ja.dbpedia.org/resource/Category:> .
+dbpedia-ja:バリィさん	dbpedia-owl:wikiPageWikiLink	category-ja:鳥をモチーフにしたマスコット ,
+		dbpedia-ja:ころとん ,
+		dbpedia-ja:ランチパック ,
+		<http://ja.dbpedia.org/resource/2\u67085\u65E5> ,
+		dbpedia-ja:四国地方 ,
+		<http://ja.dbpedia.org/resource/3\u670829\u65E5> ,
+		dbpedia-ja:今治城 ,
+		<http://ja.dbpedia.org/resource/3\u67081\u65E5> ,
+		dbpedia-ja:MUSIC_JAPAN ,
+		dbpedia-ja:鳥類 ,
+		<http://ja.dbpedia.org/resource/12\u670813\u65E5> ,
+		<http://ja.dbpedia.org/resource/3\u670819\u65E5> ,
+		dbpedia-ja:ガチガセ ,
+		dbpedia-ja:みきゃん ,
+		dbpedia-ja:タオル ,
+		<http://ja.dbpedia.org/resource/3\u670815\u65E5> ,
+		dbpedia-ja:ピーアール ,
+		category-ja:四国地方のマスコット ,
+		<http://ja.dbpedia.org/resource/8\u67087\u65E5> ,
+		<http://ja.dbpedia.org/resource/2\u670810\u65E5> ,
+		<http://ja.dbpedia.org/resource/2010\u5E74> ,
+		<http://ja.dbpedia.org/resource/9\u67087\u65E5> ,
+		<http://ja.dbpedia.org/resource/\u308F\u305F\u308B_(\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC)> ,
+		dbpedia-ja:乳がん ,
+		dbpedia-ja:愛媛県 ,
+		<http://ja.dbpedia.org/resource/\u30D5\u30A1\u30A4\u30EB:Bariisan_goods.JPG> ,
+		dbpedia-ja:日本テレビ ,
+		dbpedia-ja:第一印刷 ,
+		<http://ja.dbpedia.org/resource/7\u67087\u65E5> ,
+		dbpedia-ja:定期預金 ,
+		<http://ja.dbpedia.org/resource/2\u670823\u65E5> ,
+		dbpedia-ja:マスコットキャラクター ,
+		dbpedia-ja:裸麦 ,
+		dbpedia-ja:義援金 ,
+		<http://ja.dbpedia.org/resource/8\u670810\u65E5> ,
+		dbpedia-ja:キビタン ,
+		<http://ja.dbpedia.org/resource/8\u670811\u65E5> ,
+		<http://ja.dbpedia.org/resource/2\u670817\u65E5> ,
+		<http://ja.dbpedia.org/resource/2\u670811\u65E5> ,
+		dbpedia-ja:伯方塩業 ,
+		<http://ja.dbpedia.org/resource/2\u670812\u65E5> ,
+		<http://ja.dbpedia.org/resource/8\u6708> ,
+		dbpedia-ja:四国旅客鉄道 ,
+		dbpedia-ja:今治警察署 ,
+		<http://ja.dbpedia.org/resource/1\u670810\u65E5> ,
+		dbpedia-ja:Twitter ,
+		<http://ja.dbpedia.org/resource/8\u67083\u65E5> ,
+		dbpedia-ja:水樹奈々 ,
+		dbpedia-ja:姉妹都市 ,
+		<http://ja.dbpedia.org/resource/8\u670826\u65E5> ,
+		<http://ja.dbpedia.org/resource/12\u670811\u65E5> ,
+		<http://ja.dbpedia.org/resource/11\u67088\u65E5> ,
+		dbpedia-ja:FNNスーパーニュース ,
+		<http://ja.dbpedia.org/resource/12\u67087\u65E5> ,
+		<http://ja.dbpedia.org/resource/11\u67089\u65E5> ,
+		dbpedia-ja:ハンバーグマのグーグー ,
+		dbpedia-ja:ウィルコム ,
+		<http://ja.dbpedia.org/resource/12\u67082\u65E5> ,
+		dbpedia-ja:伊予鉄高島屋 ,
+		dbpedia-ja:イオン ,
+		dbpedia-ja:ザメディアジョン ,
+		<http://ja.dbpedia.org/resource/11\u670828\u65E5> ,
+		dbpedia-ja:尾道市 ,
+		dbpedia-ja:にゃんよ ,
+		<http://ja.dbpedia.org/resource/11\u670830\u65E5> ,
+		dbpedia-ja:サークルK ,
+		<http://ja.dbpedia.org/resource/12\u670825\u65E5> ,
+		dbpedia-ja:今治市 ,
+		<http://ja.dbpedia.org/resource/7\u670815\u65E5> ,
+		dbpedia-ja:くまモン ,
+		<http://ja.dbpedia.org/resource/\u677E\u5C71\u99C5_(\u611B\u5A9B\u770C)> ,
+		<http://ja.dbpedia.org/resource/12\u670821\u65E5> ,
+		<http://ja.dbpedia.org/resource/12\u670822\u65E5> ,
+		dbpedia-ja:DVD ,
+		<http://ja.dbpedia.org/resource/1\u670813\u65E5> ,
+		dbpedia-ja:しまなみ海道 ,
+		<http://ja.dbpedia.org/resource/1\u670818\u65E5> ,
+		dbpedia-ja:森永製菓 ,
+		<http://ja.dbpedia.org/resource/9\u670828\u65E5> ,
+		dbpedia-ja:ゆるキャラ ,
+		dbpedia-ja:テレビ朝日 ,
+		<http://ja.dbpedia.org/resource/7\u67082\u65E5> ,
+		dbpedia-ja:にしこくん ,
+		dbpedia-ja:おはよう日本 ,
+		<http://ja.dbpedia.org/resource/7\u670826\u65E5> ,
+		<http://ja.dbpedia.org/resource/10\u67086\u65E5> ,
+		<http://ja.dbpedia.org/resource/10\u670826\u65E5> ,
+		dbpedia-ja:アサヒ飲料 ,
+		dbpedia-ja:カプコン ,
+		dbpedia-ja:広島県 ,
+		dbpedia-ja:生徒会 ,
+		dbpedia-ja:おんまく ,
+		category-ja:企業のマスコット ,
+		<http://ja.dbpedia.org/resource/2\u67088\u65E5> ,
+		<http://ja.dbpedia.org/resource/\u30A2\u30E1\u30A4\u30B8\u30F3\u30B0\u30FB\u30B9\u30D1\u30A4\u30C0\u30FC\u30DE\u30F3_(\u6620\u753B)> ,
+		dbpedia-ja:大王製紙 ,
+		dbpedia-ja:愛媛銀行 ,
+		dbpedia-ja:くりぃむクイズ_ミラクル9 ,
+		<http://ja.dbpedia.org/resource/11\u670824\u65E5> ,
+		<http://ja.dbpedia.org/resource/11\u670825\u65E5> ,
+		<http://ja.dbpedia.org/resource/11\u670827\u65E5> ,
+		dbpedia-ja:カルビー ,
+		dbpedia-ja:日本テレビ放送網 ,
+		<http://ja.dbpedia.org/resource/11\u67081\u65E5> ,
+		<http://ja.dbpedia.org/resource/11\u670814\u65E5> ,
+		<http://ja.dbpedia.org/resource/11\u670815\u65E5> ,
+		category-ja:建築物をモチーフにしたマスコット ,
+		<http://ja.dbpedia.org/resource/11\u670818\u65E5> ,
+		dbpedia-ja:東京 ,
+		<http://ja.dbpedia.org/resource/\u30B9\u30C3\u30AD\u30EA!!> ,
+		dbpedia-ja:葉書 ,
+		dbpedia-ja:中村時広 ,
+		dbpedia-ja:ふっかちゃん ,
+		<http://ja.dbpedia.org/resource/\u7B11\u3063\u3066\u3044\u3044\u3068\u3082!> ,
+		dbpedia-ja:幻冬舎 ,
+		dbpedia-ja:タオル美術館ICHIHIRO ,
+		dbpedia-ja:日本赤十字社 ,
+		<http://ja.dbpedia.org/resource/6\u67084\u65E5> ,
+		dbpedia-ja:募金 ,
+		dbpedia-ja:高島屋 ,
+		<http://ja.dbpedia.org/resource/6\u670830\u65E5> ,
+		dbpedia-ja:あゆコロちゃん ,
+		dbpedia-ja:王子ネピア ,
+		<http://ja.dbpedia.org/resource/8\u670830\u65E5> ,
+		<http://ja.dbpedia.org/resource/8\u67088\u65E5> ,
+		dbpedia-ja:ホヤぼーや ,
+		<http://ja.dbpedia.org/resource/10\u670815\u65E5> ,
+		dbpedia-ja:Blu-ray_Disc ,
+		<http://ja.dbpedia.org/resource/10\u670810\u65E5> ,
+		dbpedia-ja:天才てれびくん ,
+		dbpedia-ja:相撲 ,
+		dbpedia-ja:十六茶 ,
+		dbpedia-ja:絵本 ,
+		dbpedia-ja:Facebook ,
+		<http://ja.dbpedia.org/resource/5\u670830\u65E5> ,
+		dbpedia-ja:テレビ東京 ,
+		dbpedia-ja:著作権 ,
+		dbpedia-ja:今治駅 ,
+		dbpedia-ja:NHK教育 ,
+		dbpedia-ja:ローカルアイドル ,
+		<http://ja.dbpedia.org/resource/12\u670819\u65E5> ,
+		dbpedia-ja:むすび丸 ,
+		<http://ja.dbpedia.org/resource/5\u670829\u65E5> ,
+		<http://ja.dbpedia.org/resource/6\u670820\u65E5> ,
+		dbpedia-ja:おはスタ ,
+		dbpedia-ja:商標 ,
+		dbpedia-ja:声優 ,
+		dbpedia-ja:来島海峡大橋 ,
+		<http://ja.dbpedia.org/resource/5\u6708> ,
+		dbpedia-ja:佐々木希 ,
+		dbpedia-ja:三井住友カード ,
+		category-ja:自治体のマスコット ,
+		dbpedia-ja:バリィさんのいまばり弁講座 ,
+		dbpedia-ja:キティちゃん ,
+		dbpedia-ja:香港 ,
+		dbpedia-ja:NOTTV ,
+		dbpedia-ja:歌手 ,
+		dbpedia-ja:東日本大震災 ,
+		<http://ja.dbpedia.org/resource/7\u6708> ,
+		dbpedia-ja:シューイチ ,
+		dbpedia-ja:文房具 ,
+		<http://ja.dbpedia.org/resource/2015\u5E74> ,
+		dbpedia-ja:サンライズ糸山 ,
+		<http://ja.dbpedia.org/resource/4\u67084\u65E5> ,
+		dbpedia-ja:エースコック ,
+		dbpedia-ja:オールスター感謝祭 ,
+		<http://ja.dbpedia.org/resource/5\u670822\u65E5> ,
+		<http://ja.dbpedia.org/resource/3\u6708> ,
+		dbpedia-ja:今治郵便局 ,
+		dbpedia-ja:菅良二 ,
+		dbpedia-ja:市町村 ,
+		dbpedia-ja:モンスターハンター ,
+		category-ja:今治市 ,
+		dbpedia-ja:シルシルミシルさんデー ,
+		dbpedia-ja:タモリ倶楽部 ,
+		dbpedia-ja:FC今治 ,
+		<http://ja.dbpedia.org/resource/2\u67086\u65E5> ,
+		dbpedia-ja:カピバラさん ,
+		dbpedia-ja:愛媛県知事 ,
+		dbpedia-ja:プリッツ ,
+		dbpedia-ja:山崎製パン ,
+		dbpedia-ja:今治商店街 ,
+		dbpedia-ja:菓子 ,
+		<http://ja.dbpedia.org/resource/6\u6708> ,
+		dbpedia-ja:エンブレム ,
+		dbpedia-ja:松山赤十字病院 ,
+		<http://ja.dbpedia.org/resource/11\u6708> ,
+		dbpedia-ja:ぬいぐるみ ,
+		dbpedia-ja:高橋洋樹 ,
+		dbpedia-ja:ちょるる ,
+		dbpedia-ja:高田純次 ;
+	foaf:homepage	<http://www.barysan.net/> .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+dbpedia-ja:バリィさん	dcterms:subject	category-ja:建築物をモチーフにしたマスコット ,
+		category-ja:今治市 ,
+		category-ja:自治体のマスコット ,
+		category-ja:四国地方のマスコット ,
+		category-ja:企業のマスコット ,
+		category-ja:鳥をモチーフにしたマスコット .
+@prefix prop-ja:	<http://ja.dbpedia.org/property/> .
+@prefix template-ja:	<http://ja.dbpedia.org/resource/Template:> .
+dbpedia-ja:バリィさん	prop-ja:wikiPageUsesTemplate	template-ja:Twitter ,
+		template-ja:JPN ,
+		template-ja:Character-stub ,
+		template-ja:ゆるキャラグランプリ優勝キャラ ,
+		template-ja:Reflist ,
+		template-ja:マスコットキャラクター .
+@prefix ns14:	<http://dbpedia.org/datatype/> .
+dbpedia-ja:バリィさん	prop-ja:体重	"150.0"^^ns14:kilogram ;
+	prop-ja:備考	"\u4ECA\u6CBB\u5E02\u304B\u3089\u7279\u5225\u4F4F\u6C11\u7968\u3092\u4EA4\u4ED8"@ja ;
+	prop-ja:公式サイト	<http://www.barysan.net/> ;
+	prop-ja:分類	dbpedia-ja:市町村 ;
+	prop-ja:名称	"\u30D0\u30EA\u30A3\u3055\u3093"@ja ;
+	prop-ja:地域	"\u611B\u5A9B\u770C\u4ECA\u6CBB\u5E02"@ja ;
+	prop-ja:経度分	59 ;
+	prop-ja:経度度	132 ;
+	prop-ja:経度秒	52.329999999999998295 ;
+	prop-ja:緯度分	3 ;
+	prop-ja:緯度度	34 ;
+	prop-ja:緯度秒	57.960000000000000853 ;
+	prop-ja:身長	"150.0"^^ns14:centimetre ;
+	prop-ja:指定日	2009 ;
+	prop-ja:デザイン	"\u5BAE\u7530\u9EBB\u5B50\uFF08\u7B2C\u4E00\u5370\u5237\u793E\u54E1\uFF09"@ja ;
+	prop-ja:モチーフ	dbpedia-ja:鳥類 .
+dbpedia-ja:第一印刷	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:薩摩剣士隼人	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:しまねっこ	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:みきゃん	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+dbpedia-ja:ゆっぴ〜	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+<http://ja.dbpedia.org/resource/\u308F\u305F\u308B_(\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC)>	dbpedia-owl:wikiPageWikiLink	dbpedia-ja:バリィさん .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<http://ja.dbpedia.org/data/\u30D0\u30EA\u30A3\u3055\u3093.n3>	rdf:type	foaf:Document ;
+	foaf:primaryTopic	dbpedia-ja:バリィさん .
