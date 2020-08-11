@@ -8,6 +8,8 @@ services:
         volumes:
             - ./viz/:/usr/share/nginx/html/viz/:ro
             - ./default.conf:/etc/nginx/conf.d/default.conf
+        depends_on: 
+            - fuseki
     fuseki:
         image: stain/jena-fuseki:3.14.0
         environment: 
