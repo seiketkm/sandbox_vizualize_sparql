@@ -10,18 +10,22 @@ $(function() {
     const kdcm = "http://kgc.knowledge-graph.jp/data/CrookedMan/";
     const rdfs = "http://www.w3.org/2000/01/rdf-schema#";
     const rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-  
+    
+    const kg_info = "http://mountain.kg/info/";
+    const kg_mountain = "http://mountain.kg/mountain/";
+    const dbpedia_owl = "http://dbpedia.org/ontology/";
+    const foaf = "http://xmlns.com/foaf/0.1/";
+    
+    const is_name_p = [
+      "http://xmlns.com/foaf/0.1/name"
+    ];
     var nodes = new vis.DataSet();
     var edges = new vis.DataSet();
   
-    var allNodes = [];
-    var allEdges = [];
     /* variables end */
   
     /* function start */
     function clear() {
-      allNodes = [];
-      allEdges = [];
       nodes.clear();
       edges.clear();
       network.redraw();
@@ -51,9 +55,17 @@ $(function() {
         s = s.replace(kddf, "kddf:");
         s = s.replace(kdcm, "kdcm:");
         s = s.replace(kgc, "kgc:");
+        s = s.replace(kg_mountain, "mountain:");
+        s = s.replace(dbpedia_owl, "dbpedia_owl:");
+
         let p = bindings[i]["p"]["value"];
+        const pType = bindings[i]["p"]["type"];
         p = p.replace(rdfs, "rdfs:");
         p = p.replace(kgc, "kgc:");
+        p = p.replace(foaf, "foaf:");
+        p = p.replace(kg_info, "");
+        p = p.replace(rdf, "rdf:");
+
         let o = bindings[i]["o"]["value"];
         let oType = bindings[i]["o"]["type"];
   
@@ -66,9 +78,12 @@ $(function() {
         o = o.replace(kddf, "kddf:");
         o = o.replace(kdcm, "kdcm:");
         o = o.replace(kgc,"kgc:");
+        o = o.replace(kg_mountain, "mountain:");
+        o = o.replace(dbpedia_owl, "dbpedia_owl:");
+
         let nodeS = nodes.get(s);
         if(nodeS == undefined) {
-          allNodes.push({id: s, label: s, shape: "dot", size: 7, color: { border: "#2B7CE9", background: "#D2E5FF"}});
+          nodes.add({id: s, label: s, shape: "dot", size: 7, color: { border: "#2B7CE9", background: "#D2E5FF"}});
         }
         let nodeO = undefined;
         if(oType == "uri") {
@@ -78,24 +93,31 @@ $(function() {
         }
         if(nodeO == undefined) {
           if(oType == "uri") {
-            allNodes.push({id: o, label: o, shape: "dot", size: 7, color: { border: "#2B7CE9", background: "#D2E5FF"}})
-          } else {
-            if(o != "") {//日本語または英語ラベルがない場合は表示しない
-          allNodes.push({id: o + "literal", label: o, title: o,  shape: "box", color: { background: "rgba(255,255,255,0.7)"}});
-            }
+            nodes.add({id: o, label: o, shape: "dot", size: 7, color: { border: "#2B7CE9", background: "#D2E5FF"}})
+          } 
+          else if(o != "") {//日本語または英語ラベルがない場合は表示しない
+            nodes.add({id: o + "literal", label: o, title: o,  shape: "box", color: { background: "rgba(255,255,255,0.7)"}});
           }
         }
+        if(oType == "literal" && pType=="uri" && is_name_p.includes(bindings[i]["p"]["value"])){
+          nodeS = nodes.get(s)
+          if(nodeS){
+            if(nodeS.lang != "ja"){
+              nodeS.label = o;
+              nodeS.lang = bindings[i]["o"]["xml:lang"]
+            }
+            nodeS.shape = "ellipse";
+            nodes.update(nodeS);
+          }
+        } 
         if(oType == "uri") {
-          allEdges.push({from: s, to: o, title: p, arrows: {to: {enabled: true}}});
+          edges.add({from: s, to: o, title: p, label: p, arrows: {to: {enabled: true}}});
         } else {
-          allEdges.push({from: s, to: o + "literal", title: p, arrows: {to: {enabled: true}}});
-        }
+          edges.add({from: s, to: o + "literal", title: p, label: p, arrows: {to: {enabled: true}}});
+        } 
         i=(i+1)|0;
       }
-      console.log(allNodes.length);
-      nodes.update(allNodes);
-      edges.update(allEdges);
-  
+      console.log(nodes.length);  
       network.setOptions( { physics: true } );
       network.redraw();
         }
@@ -103,8 +125,6 @@ $(function() {
     }
   
     function highlight(text) {
-      nodes.update(allNodes);
-      edges.update(allEdges);
       network.redraw();
       let items = nodes.get({
         filter: function(item) {
