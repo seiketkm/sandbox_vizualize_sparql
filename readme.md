@@ -1,6 +1,9 @@
 ## 目的
 Fusekiのデータを可視化するテスト
 
+## 動かし方
+`docker-compose up`
+
 ## 可視化
 
 
